@@ -15,7 +15,7 @@ public class Instruction : MonoBehaviour
     public GameObject Point3;
 
     public GameObject Previos;
-    public Mesh Text_mesh;
+
     private void NextStep(GameObject SomeObj)
     {
         if (Previos != null)

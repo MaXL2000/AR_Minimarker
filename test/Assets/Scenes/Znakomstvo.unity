@@ -597,7 +597,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 568277982}
   m_LocalRotation: {x: -0.70783, y: 0.011477092, z: -0.005302074, w: -0.7062697}
-  m_LocalPosition: {x: 5.2099953, y: 30.630013, z: 9.970007}
+  m_LocalPosition: {x: 5.209995, y: 30.63001, z: 9.970007}
   m_LocalScale: {x: 16.775055, y: 16.775059, z: 33.55012}
   m_Children: []
   m_Father: {fileID: 992420948}
@@ -613,7 +613,8 @@ Animation:
   m_Enabled: 1
   serializedVersion: 3
   m_Animation: {fileID: 7400000, guid: a951d242f533e594890e1a7c9465c658, type: 2}
-  m_Animations: []
+  m_Animations:
+  - {fileID: 7400000, guid: a678e0988a4f3c64395b22365baab50f, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -1081,6 +1082,7 @@ GameObject:
   - component: {fileID: 964115181}
   - component: {fileID: 964115183}
   - component: {fileID: 964115182}
+  - component: {fileID: 964115184}
   m_Layer: 0
   m_Name: Line (1)
   m_TagString: Untagged
@@ -1095,13 +1097,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 964115180}
-  m_LocalRotation: {x: -0.15401626, y: 0.69893277, z: -0.684085, w: 0.14071137}
-  m_LocalPosition: {x: -9.695973, y: 28.36664, z: 8.337212}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.1, y: -10.4, z: -34.3}
   m_LocalScale: {x: 16.775055, y: 16.775053, z: 33.55012}
   m_Children: []
   m_Father: {fileID: 850687281}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 181.401, y: -24.049988, z: -180.804}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!111 &964115182
 Animation:
   m_ObjectHideFlags: 0
@@ -1232,6 +1234,25 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
+--- !u!95 &964115184
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964115180}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fad90d595a7a41a4880d1cee6acaf4e4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &992420947
 GameObject:
   m_ObjectHideFlags: 0

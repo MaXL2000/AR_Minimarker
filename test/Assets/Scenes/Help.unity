@@ -685,7 +685,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0417\u0434\u0435\u0441\u0442\u044C \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0435\u0442\u0441\u044F
+  m_text: "\u0417\u0434\u0435\u0441\u044C \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0430\u0435\u0442\u0441\u044F
     \u0442\u0435\u043A\u0443\u0449\u0438\u0439 \u0448\u0430\u0433 \u0438\u043D\u0441\u0442\u0440\u0443\u043A\u0446\u0438\u0438
     \u0438 \u0445\u043E\u0434 \u0435\u0433\u043E \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F"
   m_isRightToLeft: 0
@@ -783,7 +783,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &284076959
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1096,8 +1096,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -343.7, y: -158.6}
-  m_SizeDelta: {x: 313.04974, y: 111.4523}
+  m_AnchoredPosition: {x: -267.09, y: -156.44}
+  m_SizeDelta: {x: 158.86395, y: 104.24927}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &542569526
 MonoBehaviour:
@@ -1192,9 +1192,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u042D\u0442\u043E \u043A\u043D\u043E\u043F\u043A\u0430 \u0434\u0430\u043B\u0435\u0435
-    \u0434\u043B\u044F \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430 \u043D\u0430
-    \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u0448\u0430\u0433"
+  m_text: "\u041A\u043D\u043E\u043F\u043A\u0430 \u0434\u0430\u043B\u0435\u0435 \u0434\u043B\u044F
+    \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430 \u043D\u0430 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439
+    \u0448\u0430\u0433"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8977fdc5eb2c41241a713b3726bf821d, type: 2}
   m_sharedMaterial: {fileID: -6284155010207094235, guid: 8977fdc5eb2c41241a713b3726bf821d,
@@ -1649,7 +1649,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &907914979
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1882,7 +1882,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962331647}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.516, y: 5.62, z: 1.7330003}
+  m_LocalPosition: {x: 2.516, y: 1.41, z: 1.7330003}
   m_LocalScale: {x: 9.09702, y: 9.09702, z: 11.37128}
   m_Children: []
   m_Father: {fileID: 1442699717}
@@ -2479,7 +2479,7 @@ Camera:
   m_GameObject: {fileID: 1442699712}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -2766,9 +2766,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u042D\u0442\u043E \u043A\u043D\u043E\u043F\u043A\u0430 \u043D\u0430\u0437\u0430\u0434
-    \u0434\u043B\u044F \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430 \u043D\u0430
-    \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439 \u0448\u0430\u0433"
+  m_text: "\u041A\u043D\u043E\u043F\u043A\u0430 \u043D\u0430\u0437\u0430\u0434 \u0434\u043B\u044F
+    \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430 \u043D\u0430 \u043F\u0440\u0435\u0434\u044B\u0434\u0443\u0449\u0438\u0439
+    \u0448\u0430\u0433"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8977fdc5eb2c41241a713b3726bf821d, type: 2}
   m_sharedMaterial: {fileID: -6284155010207094235, guid: 8977fdc5eb2c41241a713b3726bf821d,
@@ -3079,8 +3079,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.62, y: 1.28}
-  m_SizeDelta: {x: 291.94104, y: 91.481186}
+  m_AnchoredPosition: {x: 2.03, y: -11.77}
+  m_SizeDelta: {x: 145.23694, y: 69.97382}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1826204713
 MonoBehaviour:
@@ -3101,8 +3101,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0414\u043B\u044F \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430 \u0432
-    \u0433\u043B\u0430\u0432\u043D\u043E\u0435 \u043C\u0435\u043D\u044E"
+  m_text: "\u041A\u043D\u043E\u043F\u043A\u0430 \u0434\u043B\u044F \u043F\u0435\u0440\u0435\u0445\u043E\u0434\u0430
+    \u0432 \u0433\u043B\u0430\u0432\u043D\u043E\u0435 \u043C\u0435\u043D\u044E"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8977fdc5eb2c41241a713b3726bf821d, type: 2}
   m_sharedMaterial: {fileID: -6284155010207094235, guid: 8977fdc5eb2c41241a713b3726bf821d,
@@ -3130,10 +3130,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 39
-  m_fontSizeBase: 36
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 10
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -3166,7 +3166,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: -22.207336, z: 0, w: 2.8604126}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3596,7 +3596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1962423928
 MonoBehaviour:
   m_ObjectHideFlags: 0
